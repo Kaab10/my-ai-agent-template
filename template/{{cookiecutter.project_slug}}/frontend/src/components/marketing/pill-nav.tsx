@@ -118,13 +118,13 @@ export function PillNav({ brand, links, ctaLabel, ctaHref, secondaryCta }: PillN
     <header
       ref={headerRef}
       className={cn(
-        "theme-dark fixed inset-x-0 top-0 z-50 border-b transition-colors duration-300",
+        "theme-dark fixed inset-x-0 top-0 z-50 border-b transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300",
         scrolled || open
-          ? "border-border bg-background/85 shadow-[0_8px_30px_-12px_oklch(0%_0_0_/_0.5)] backdrop-blur-xl"
-          : "border-foreground/10 bg-background/55 backdrop-blur-md",
+          ? "border-border/80 bg-background/90 shadow-[0_10px_36px_-18px_oklch(0%_0_0_/_0.55)] backdrop-blur-2xl"
+          : "border-transparent bg-background/40 backdrop-blur-sm",
       )}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-6 md:px-10">
+      <div className="mx-auto flex h-14 max-w-7xl items-center justify-between gap-4 px-5 md:h-16 md:px-10">
         <Link
           href={ROUTES.HOME}
           className="font-display text-foreground flex shrink-0 items-center gap-2.5 text-base font-bold tracking-tight"
@@ -207,7 +207,7 @@ export function PillNav({ brand, links, ctaLabel, ctaHref, secondaryCta }: PillN
           )}
           <Link
             href={ctaHref}
-            className="bg-brand text-brand-foreground hover:bg-brand-hover group hidden items-center gap-1.5 rounded-full py-2 pr-2.5 pl-4 text-sm font-medium transition-colors md:inline-flex"
+            className="bg-brand text-brand-foreground hover:bg-brand-hover group hidden items-center gap-1.5 rounded-full py-2 pr-2.5 pl-4 text-sm font-medium shadow-[0_8px_20px_-12px_oklch(from_var(--color-brand)_l_c_h_/_0.9)] transition-colors md:inline-flex"
           >
             {ctaLabel}
             <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
