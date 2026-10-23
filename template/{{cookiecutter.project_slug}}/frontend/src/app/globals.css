@@ -60,30 +60,30 @@
      (e.g. lime). Dark themes override this to use the bright brand directly. */
   --color-chart: oklch(55% var(--brand-c) var(--brand-h));
 
-  /* Light theme — cream */
-  --color-background: oklch(96% 0.005 90);
-  --color-foreground: oklch(15% 0 0);
-  --color-card: oklch(100% 0 0);
-  --color-card-foreground: oklch(15% 0 0);
-  --color-popover: oklch(100% 0 0);
-  --color-popover-foreground: oklch(15% 0 0);
-  --color-primary: oklch(15% 0 0);
+  /* Light theme — cool neutral paper */
+  --color-background: oklch(97.5% 0.004 250);
+  --color-foreground: oklch(14% 0.01 250);
+  --color-card: oklch(99.5% 0.002 250);
+  --color-card-foreground: oklch(14% 0.01 250);
+  --color-popover: oklch(99.5% 0.002 250);
+  --color-popover-foreground: oklch(14% 0.01 250);
+  --color-primary: oklch(18% 0.02 250);
   --color-primary-foreground: oklch(98% 0 0);
-  --color-secondary: oklch(93% 0.005 90);
-  --color-secondary-foreground: oklch(20% 0 0);
-  --color-muted: oklch(93% 0.005 90);
-  --color-muted-foreground: oklch(45% 0 0);
-  --color-accent: oklch(93% 0.005 90);
-  --color-accent-foreground: oklch(20% 0 0);
+  --color-secondary: oklch(94% 0.008 250);
+  --color-secondary-foreground: oklch(22% 0.02 250);
+  --color-muted: oklch(94% 0.008 250);
+  --color-muted-foreground: oklch(46% 0.02 250);
+  --color-accent: oklch(94% 0.01 250);
+  --color-accent-foreground: oklch(22% 0.02 250);
   --color-destructive: oklch(57.7% 0.245 27.325);
   --color-destructive-foreground: oklch(98.5% 0 0);
-  --color-border: oklch(88% 0.005 90);
-  --color-input: oklch(88% 0.005 90);
+  --color-border: oklch(88% 0.01 250);
+  --color-input: oklch(88% 0.01 250);
   --color-ring: var(--color-brand);
 
-  /* Radius */
-  --radius: 0.5rem;
-  --radius-card: 1rem;
+  /* Radius — slightly tighter for a denser product feel */
+  --radius: 0.625rem;
+  --radius-card: 1.125rem;
   --radius-pill: 999px;
 
   /* Typography */
@@ -100,46 +100,46 @@
   --duration-slow: 400ms;
 }
 
-/* Dark theme — softer near-black */
+/* Dark theme — cool near-black with a hint of brand hue */
 @media (prefers-color-scheme: dark) {
   :root:not(.light) {
-    --color-background: oklch(8% 0.005 90);
-    --color-foreground: oklch(95% 0.005 90);
-    --color-card: oklch(23% 0.005 90);
-    --color-card-foreground: oklch(95% 0.005 90);
-    --color-popover: oklch(23% 0.005 90);
-    --color-popover-foreground: oklch(95% 0.005 90);
-    --color-primary: oklch(95% 0 0);
-    --color-primary-foreground: oklch(8% 0.005 90);
-    --color-secondary: oklch(27% 0.005 90);
-    --color-secondary-foreground: oklch(95% 0 0);
-    --color-muted: oklch(27% 0.005 90);
-    --color-muted-foreground: oklch(63% 0.005 90);
-    --color-accent: oklch(29% 0.005 90);
-    --color-accent-foreground: oklch(95% 0 0);
-    --color-border: oklch(36% 0.005 90);
-    --color-input: oklch(33% 0.005 90);
+    --color-background: oklch(9% 0.01 250);
+    --color-foreground: oklch(96% 0.005 250);
+    --color-card: oklch(15% 0.012 250);
+    --color-card-foreground: oklch(96% 0.005 250);
+    --color-popover: oklch(15% 0.012 250);
+    --color-popover-foreground: oklch(96% 0.005 250);
+    --color-primary: oklch(96% 0 0);
+    --color-primary-foreground: oklch(10% 0.01 250);
+    --color-secondary: oklch(20% 0.014 250);
+    --color-secondary-foreground: oklch(96% 0 0);
+    --color-muted: oklch(20% 0.014 250);
+    --color-muted-foreground: oklch(65% 0.01 250);
+    --color-accent: oklch(22% 0.016 250);
+    --color-accent-foreground: oklch(96% 0 0);
+    --color-border: oklch(28% 0.014 250);
+    --color-input: oklch(26% 0.014 250);
     --color-chart: var(--color-brand);
   }
 }
 
 :root.dark {
-  --color-background: oklch(8% 0.005 90);
-  --color-foreground: oklch(95% 0.005 90);
-  --color-card: oklch(23% 0.005 90);
-  --color-card-foreground: oklch(95% 0.005 90);
-  --color-popover: oklch(23% 0.005 90);
-  --color-popover-foreground: oklch(95% 0.005 90);
-  --color-primary: oklch(95% 0 0);
-  --color-primary-foreground: oklch(8% 0.005 90);
-  --color-secondary: oklch(27% 0.005 90);
-  --color-secondary-foreground: oklch(95% 0 0);
-  --color-muted: oklch(27% 0.005 90);
-  --color-muted-foreground: oklch(63% 0.005 90);
-  --color-accent: oklch(29% 0.005 90);
-  --color-accent-foreground: oklch(95% 0 0);
-  --color-border: oklch(36% 0.005 90);
-  --color-input: oklch(33% 0.005 90);
+  --color-background: oklch(9% 0.01 250);
+  --color-foreground: oklch(96% 0.005 250);
+  --color-card: oklch(15% 0.012 250);
+  --color-card-foreground: oklch(96% 0.005 250);
+  --color-popover: oklch(15% 0.012 250);
+  --color-popover-foreground: oklch(96% 0.005 250);
+  --color-primary: oklch(96% 0 0);
+  --color-primary-foreground: oklch(10% 0.01 250);
+  --color-secondary: oklch(20% 0.014 250);
+  --color-secondary-foreground: oklch(96% 0 0);
+  --color-muted: oklch(20% 0.014 250);
+  --color-muted-foreground: oklch(65% 0.01 250);
+  --color-accent: oklch(22% 0.016 250);
+  --color-accent-foreground: oklch(96% 0 0);
+  --color-border: oklch(28% 0.014 250);
+  --color-input: oklch(26% 0.014 250);
   --color-chart: var(--color-brand);
 }
 
@@ -149,23 +149,23 @@
    ========================================================================= */
 
 .theme-light {
-  --color-background: oklch(96% 0.005 90);
-  --color-foreground: oklch(15% 0 0);
-  --color-card: oklch(100% 0 0);
-  --color-card-foreground: oklch(15% 0 0);
-  --color-muted: oklch(93% 0.005 90);
-  --color-muted-foreground: oklch(45% 0 0);
-  --color-border: oklch(88% 0.005 90);
+  --color-background: oklch(97.5% 0.004 250);
+  --color-foreground: oklch(14% 0.01 250);
+  --color-card: oklch(99.5% 0.002 250);
+  --color-card-foreground: oklch(14% 0.01 250);
+  --color-muted: oklch(94% 0.008 250);
+  --color-muted-foreground: oklch(46% 0.02 250);
+  --color-border: oklch(88% 0.01 250);
 }
 
 .theme-dark {
-  --color-background: oklch(8% 0.005 90);
-  --color-foreground: oklch(95% 0.005 90);
-  --color-card: oklch(23% 0.005 90);
-  --color-card-foreground: oklch(95% 0.005 90);
-  --color-muted: oklch(27% 0.005 90);
-  --color-muted-foreground: oklch(63% 0.005 90);
-  --color-border: oklch(36% 0.005 90);
+  --color-background: oklch(9% 0.01 250);
+  --color-foreground: oklch(96% 0.005 250);
+  --color-card: oklch(15% 0.012 250);
+  --color-card-foreground: oklch(96% 0.005 250);
+  --color-muted: oklch(20% 0.014 250);
+  --color-muted-foreground: oklch(65% 0.01 250);
+  --color-border: oklch(28% 0.014 250);
   --color-chart: var(--color-brand);
 }
 
