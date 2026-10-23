@@ -13,9 +13,7 @@ Only the latest minor release receives security fixes. We recommend always using
 
 **Please do not report security vulnerabilities via public GitHub Issues.**
 
-To report a vulnerability, email the maintainers at:
-
-**security@vstorm.co**
+To report a vulnerability, open a private [GitHub Security Advisory](https://github.com/Kaab10/my-ai-agent-template/security/advisories/new) on this repository (do not file a public issue).
 
 Include in your report:
 - Description of the vulnerability

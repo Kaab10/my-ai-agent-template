@@ -1009,7 +1009,7 @@ The interactive wizard and CLI have been significantly simplified. Many options 
 
 ### Fixed
 
-- **Removed macOS `.DS_Store` artifacts** and added `.DS_Store` to `.gitignore` (contributed by [@vladdoster](https://github.com/vladdoster) in [#42](https://github.com/vstorm-co/full-stack-ai-agent-template/pull/42))
+- **Removed macOS `.DS_Store` artifacts** and added `.DS_Store` to `.gitignore` (contributed by [@vladdoster](https://github.com/vladdoster) in [#42](https://github.com/Kaab10/my-ai-agent-template/pull/42))
 
 ## [0.1.17] - 2026-01-24
 

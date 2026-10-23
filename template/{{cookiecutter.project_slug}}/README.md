@@ -2,7 +2,7 @@
 
 {{ cookiecutter.project_description }}
 
-> Generated with [Full-Stack AI Agent Template](https://github.com/vstorm-co/full-stack-ai-agent-template).
+> Generated with [Full-Stack AI Agent Template](https://github.com/Kaab10/my-ai-agent-template).
 
 ---
 
@@ -382,4 +382,4 @@ Migrations run automatically on `make prod`. For a fresh deploy on a new host, t
 
 ---
 
-*Generated with [Full-Stack AI Agent Template](https://github.com/vstorm-co/full-stack-ai-agent-template) v{{ cookiecutter.generator_version }}.*
+*Generated with [Full-Stack AI Agent Template](https://github.com/Kaab10/my-ai-agent-template) v{{ cookiecutter.generator_version }}.*

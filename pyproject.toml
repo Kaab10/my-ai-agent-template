@@ -5,7 +5,7 @@ description = "Full-stack FastAPI + Next.js template generator with Pydantic AI/
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
-authors = [{ name = "Vstorm", email = "hr@vstorm.co" }]
+authors = [{ name = "Kaab10" }]
 keywords = [
     "fastapi",
     "nextjs",
@@ -85,9 +85,9 @@ docs = [
 fastapi-fullstack = "fastapi_gen.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/vstorm-co/full-stack-ai-agent-template"
-Documentation = "https://vstorm-co.github.io/full-stack-ai-agent-template/"
-Repository = "https://github.com/vstorm-co/full-stack-ai-agent-template"
+Homepage = "https://github.com/Kaab10/my-ai-agent-template"
+Documentation = "https://github.com/Kaab10/my-ai-agent-template#readme"
+Repository = "https://github.com/Kaab10/my-ai-agent-template"
 
 [build-system]
 requires = ["hatchling"]

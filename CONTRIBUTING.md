@@ -42,14 +42,14 @@ git commit --amend -s
 ## Development Setup
 
 ```bash
-git clone https://github.com/vstorm-co/full-stack-ai-agent-template.git
+git clone https://github.com/Kaab10/my-ai-agent-template.git
 cd full-stack-ai-agent-template
 uv sync
 ```
 
 ## Reporting Issues
 
-Use [GitHub Issues](https://github.com/vstorm-co/full-stack-ai-agent-template/issues) to report bugs or request features.
+Use [GitHub Issues](https://github.com/Kaab10/my-ai-agent-template/issues) to report bugs or request features.
 
 ## Code of Conduct
 
