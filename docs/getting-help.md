@@ -10,9 +10,9 @@
 
 ## GitHub
 
-- [Issues](https://github.com/vstorm-co/full-stack-ai-agent-template/issues) - Report bugs or request features
-- [Discussions](https://github.com/vstorm-co/full-stack-ai-agent-template/discussions) - Ask questions and share ideas
-- [Pull Requests](https://github.com/vstorm-co/full-stack-ai-agent-template/pulls) - Contribute to the project
+- [Issues](https://github.com/Kaab10/my-ai-agent-template/issues) - Report bugs or request features
+- [Discussions](https://github.com/Kaab10/my-ai-agent-template/discussions) - Ask questions and share ideas
+- [Pull Requests](https://github.com/Kaab10/my-ai-agent-template/pulls) - Contribute to the project
 
 ## FAQ
 

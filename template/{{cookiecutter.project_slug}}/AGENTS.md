@@ -4,7 +4,7 @@ This file provides guidance for AI coding agents (Codex, Copilot, Cursor, Zed, O
 
 ## Project Overview
 
-**{{ cookiecutter.project_name }}** - FastAPI application generated with [Full-Stack AI Agent Template](https://github.com/vstorm-co/full-stack-ai-agent-template).
+**{{ cookiecutter.project_name }}** - FastAPI application generated with [Full-Stack AI Agent Template](https://github.com/Kaab10/my-ai-agent-template).
 
 **Stack:** FastAPI + Pydantic v2
 {%- if True %}, PostgreSQL{%- endif %}

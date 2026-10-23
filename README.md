@@ -1,10 +1,3 @@
-<p align="center">
-  <a href="https://github.com/vstorm-co/agenticos">
-    <img src="assets/agenticos-banner-light.png" width="100%" alt="AgenticOS by Vstorm, the Sovereign Agentic AI Layer: AI agents your whole team can use and improve. Open source (Apache-2.0), self-hosted, built on Pydantic AI, with budgets, approvals, guardrails and activity built in. Links to the AgenticOS repository on GitHub.">
-  </a>
-</p>
-<p align="center"><sub>From the team behind this repo: <a href="https://github.com/vstorm-co/agenticos"><b>AgenticOS</b></a>, the Sovereign Agentic AI Layer. AI agents your whole team can use and improve: open source (Apache-2.0), self-hosted, built on Pydantic AI.</sub></p>
-
 <h1 align="center">Full-Stack AI Agent Template</h1>
 
 <p align="center">
@@ -15,26 +8,20 @@
   <a href="#-quick-start">Quick Start</a> •
   <a href="#-features">Features</a> •
   <a href="#-demo">Demo</a> •
-  <a href="https://vstorm-co.github.io/full-stack-ai-agent-template/">Documentation</a> •
-  <a href="https://pypi.org/project/fastapi-fullstack/">PyPI</a>
+  <a href="#-documentation">Documentation</a>
 </p>
 
 <p align="center">
-  <a href="https://pypi.org/project/fastapi-fullstack/"><img src="https://img.shields.io/pypi/v/fastapi-fullstack?color=green&logo=pypi&logoColor=white" alt="PyPI"></a>
-  <a href="https://pepy.tech/projects/fastapi-fullstack"><img src="https://static.pepy.tech/badge/fastapi-fullstack/month" alt="PyPI Downloads"></a>
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/stargazers"><img src="https://img.shields.io/github/stars/vstorm-co/full-stack-ai-agent-template?style=flat&logo=github&color=yellow" alt="GitHub Stars"></a>
+  <a href="https://github.com/Kaab10/my-ai-agent-template/stargazers"><img src="https://img.shields.io/github/stars/Kaab10/my-ai-agent-template?style=flat&logo=github&color=yellow" alt="GitHub Stars"></a>
   <a href="https://www.python.org/"><img src="https://img.shields.io/badge/python-3.11+-blue?logo=python&logoColor=white" alt="Python 3.11+"></a>
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/vstorm-co/full-stack-ai-agent-template?color=blue" alt="License"></a>
-  <img src="https://img.shields.io/badge/coverage-100%25-brightgreen" alt="Coverage">
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/actions/workflows/ci.yml"><img src="https://github.com/vstorm-co/full-stack-ai-agent-template/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
-  <a href="https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/security-policy-blueviolet?logo=shieldsdotio&logoColor=white" alt="Security Policy"></a>
-  <a href="https://www.bestpractices.dev/projects/12539"><img src="https://www.bestpractices.dev/projects/12539/badge" alt="OpenSSF Best Practices"></a>
+  <a href="https://github.com/Kaab10/my-ai-agent-template/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Kaab10/my-ai-agent-template?color=blue" alt="License"></a>
+  <a href="https://github.com/Kaab10/my-ai-agent-template/actions/workflows/ci.yml"><img src="https://github.com/Kaab10/my-ai-agent-template/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/Kaab10/my-ai-agent-template/blob/main/SECURITY.md"><img src="https://img.shields.io/badge/security-policy-blueviolet?logo=shieldsdotio&logoColor=white" alt="Security Policy"></a>
   <a href="https://github.com/pydantic/pydantic-ai"><img src="https://img.shields.io/badge/Powered%20by-Pydantic%20AI-E92063?logo=pydantic&logoColor=white" alt="Pydantic AI"></a>
-  <a href="https://x.com/Kacper95682155"><img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white" alt="X"></a>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_demo_with_tasks.gif" alt="AI chat with live plan & task checklist" width="100%">
+  <img src="https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_demo_with_tasks.gif" alt="AI chat with live plan & task checklist" width="100%">
 </p>
 
 <p align="center">
@@ -73,29 +60,10 @@
 
 ---
 
-## Vstorm OSS Ecosystem
-
-This template is part of a broader open-source ecosystem for production AI agents:
-
-| Project | Description | |
-|---------|-------------|---|
-| **[AgenticOS](https://github.com/vstorm-co/agenticos)** | Open-source (Apache-2.0), self-hosted platform to build, share and govern AI agents across a company. | [![Stars](https://img.shields.io/github/stars/vstorm-co/agenticos?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/agenticos) |
-| **[pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents)** | The modular agent runtime for Python. Claude Code-style CLI with Docker sandbox, browser automation, multi-agent teams, and /improve. | [![Stars](https://img.shields.io/github/stars/vstorm-co/pydantic-deepagents?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/pydantic-deepagents) |
-| **[pydantic-ai-shields](https://github.com/vstorm-co/pydantic-ai-shields)** | Drop-in guardrails for Pydantic AI agents. 5 infra + 5 content shields. | [![Stars](https://img.shields.io/github/stars/vstorm-co/pydantic-ai-shields?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/pydantic-ai-shields) |
-| **[subagents-pydantic-ai](https://github.com/vstorm-co/subagents-pydantic-ai)** | Declarative multi-agent orchestration with token tracking. | [![Stars](https://img.shields.io/github/stars/vstorm-co/subagents-pydantic-ai?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/subagents-pydantic-ai) |
-| **[summarization-pydantic-ai](https://github.com/vstorm-co/summarization-pydantic-ai)** | Smart context compression for long-running agents. | [![Stars](https://img.shields.io/github/stars/vstorm-co/summarization-pydantic-ai?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/summarization-pydantic-ai) |
-| **[pydantic-ai-backend](https://github.com/vstorm-co/pydantic-ai-backend)** | Sandboxed execution for AI agents. Docker + Daytona. | [![Stars](https://img.shields.io/github/stars/vstorm-co/pydantic-ai-backend?style=flat&logo=github&color=yellow)](https://github.com/vstorm-co/pydantic-ai-backend) |
-
-> **Want the runtime behind this template's AI agents?** [pydantic-deepagents](https://github.com/vstorm-co/pydantic-deepagents) powers the `pydantic_deep` framework option — install it standalone with `curl -fsSL .../install.sh | bash`.
-
-Browse all projects at [github.com/vstorm-co](https://github.com/vstorm-co)
-
----
-
 ## 🚀 Quick Start
 
 > [!TIP]
-> **Want to review every option first?** The [installation guide](https://vstorm-co.github.io/full-stack-ai-agent-template/installation/) covers the interactive wizard, non-interactive flags and presets; `fastapi-fullstack templates` lists every option.
+> **Want to review every option first?** See the docs under `docs/` and run `fastapi-fullstack templates` to list every option.
 
 ### Installation
 
@@ -284,7 +252,7 @@ Use `make help` to see all available Makefile shortcuts.
 
 **CLI generator** — configure and scaffold a full-stack AI project in under 60 seconds:
 
-![CLI generator demo](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/cli_generator_demo_2.gif)
+![CLI generator demo](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/cli_generator_demo_2.gif)
 
 <table>
 <tr>
@@ -292,14 +260,14 @@ Use `make help` to see all available Makefile shortcuts.
 
 **AI chat** — streaming responses, tool calls, reasoning, and ask-user pauses:
 
-![AI chat demo](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_demo.gif)
+![AI chat demo](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_demo.gif)
 
 </td>
 <td width="50%">
 
 **RAG ingestion** — drop a document, watch it get chunked, embedded, and answered against:
 
-![RAG demo](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/rag_demo.gif)
+![RAG demo](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/rag_demo.gif)
 
 </td>
 </tr>
@@ -307,7 +275,7 @@ Use `make help` to see all available Makefile shortcuts.
 
 **Generated marketing site** — public landing page with hero, pricing, blog, and legal pages (`enable_marketing_site`):
 
-![Landing demo](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/landing.gif)
+![Landing demo](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/landing.gif)
 
 ---
 
@@ -323,14 +291,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Plan & tasks** — sticky checklist updating live as the agent works through steps.
 
-![Chat plan and tasks](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_tasks.png)
+![Chat plan and tasks](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_tasks.png)
 
 </td>
 <td width="50%">
 
 **Subagents** — live feed and side panel showing each subagent's status and messages.
 
-![Chat subagents](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_subagents.png)
+![Chat subagents](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_subagents.png)
 
 </td>
 </tr>
@@ -339,14 +307,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Charts** — interactive bar/area/line/pie/scatter charts rendered inline.
 
-![Chat charts](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_graphs.png)
+![Chat charts](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_graphs.png)
 
 </td>
 <td width="50%">
 
 **Code execution** — `run_python` shows code + stdout/result in a collapsible card.
 
-![Chat Python code execution](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_python_code.png)
+![Chat Python code execution](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_python_code.png)
 
 </td>
 </tr>
@@ -355,14 +323,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Ask user** — agent pauses to ask clarifying questions; card keeps the full transcript.
 
-![Chat ask-user tool](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_ask_user.png)
+![Chat ask-user tool](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_ask_user.png)
 
 </td>
 <td width="50%">
 
 **Reasoning** — clean thinking view + answered-question history for long agent turns.
 
-![Chat reasoning and answered questions](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/chat_answered_questions_and_thinking.png)
+![Chat reasoning and answered questions](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/chat_answered_questions_and_thinking.png)
 
 </td>
 </tr>
@@ -376,14 +344,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Login** — split-screen with Google OAuth + email/password, HTTP-only cookie session.
 
-![Login](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/login.png)
+![Login](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/login.png)
 
 </td>
 <td width="50%">
 
 **Register** — same split-screen layout with confirm-password and terms acceptance.
 
-![Register](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/register.png)
+![Register](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/register.png)
 
 </td>
 </tr>
@@ -392,14 +360,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Dashboard (light)** — stat cards, usage timeline, recent activity, onboarding banner.
 
-![Dashboard Light](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/dashboard_light.png)
+![Dashboard Light](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/dashboard_light.png)
 
 </td>
 <td width="50%">
 
 **Dashboard (dark)** — same view in dark theme; saved per-device.
 
-![Dashboard Dark](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/dashboard_dark.png)
+![Dashboard Dark](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/dashboard_dark.png)
 
 </td>
 </tr>
@@ -413,14 +381,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Workspaces** — list of all orgs with plan tier and role; switch or create new workspace.
 
-![Organizations](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/organizations_light.png)
+![Organizations](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/organizations_light.png)
 
 </td>
 <td width="50%">
 
 **Team management** — workspace profile, member list with roles, invite button.
 
-![Organization Details](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/organization_light.png)
+![Organization Details](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/organization_light.png)
 
 </td>
 </tr>
@@ -429,14 +397,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Knowledge bases** — list of RAG collections; toggle active bases, upload documents.
 
-![Knowledge Bases](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/knowledge_bases_light.png)
+![Knowledge Bases](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/knowledge_bases_light.png)
 
 </td>
 <td width="50%">
 
 **Documents & sync sources** — preview files, manage Google Drive/S3 connectors, view run logs.
 
-![Knowledge Base Source](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/knowledge_base_source_light.png)
+![Knowledge Base Source](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/knowledge_base_source_light.png)
 
 </td>
 </tr>
@@ -450,14 +418,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Billing overview** — current plan, seats, storage usage, Customer Portal link.
 
-![Billing and usage](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/billing_and_usage_light.png)
+![Billing and usage](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/billing_and_usage_light.png)
 
 </td>
 <td width="50%">
 
 **Usage charts** — daily credits-spent + call-count charts, by-model token breakdown.
 
-![Billing usage charts](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/billing_usage_light.png)
+![Billing usage charts](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/billing_usage_light.png)
 
 </td>
 </tr>
@@ -466,14 +434,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Credits** — balance, immutable transaction ledger, usage sparkline.
 
-![Billing credits](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/billing_credits_light.png)
+![Billing credits](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/billing_credits_light.png)
 
 </td>
 <td width="50%">
 
 **Subscription & invoices** — plan management, invoice list, payment methods — all via Stripe.
 
-![Billing subscription](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/billing_subscription_light.png)
+![Billing subscription](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/billing_subscription_light.png)
 
 </td>
 </tr>
@@ -487,14 +455,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Profile** — avatar upload, display name, email, active sessions with per-device revoke.
 
-![Profile](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/profile_light.png)
+![Profile](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/profile_light.png)
 
 </td>
 <td width="50%">
 
 **Account & security** — password change, "sign out everywhere", account deletion zone.
 
-![Account](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/account_light.png)
+![Account](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/account_light.png)
 
 </td>
 </tr>
@@ -503,14 +471,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Slash commands** — toggle built-ins, create custom prompt shortcuts for the chat palette.
 
-![Slash Commands](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/commands_light.png)
+![Slash Commands](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/commands_light.png)
 
 </td>
 <td width="50%">
 
 **Appearance** — light/dark/system theme + brand color picker (5 presets, saved per-device).
 
-![Appearance](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/appearance_light.png)
+![Appearance](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/appearance_light.png)
 
 </td>
 </tr>
@@ -524,14 +492,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Overview** — workspace-wide metrics (users, sessions, conversations, MRR) + activity feed.
 
-![Admin Overview](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_overview_light.png)
+![Admin Overview](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_overview_light.png)
 
 </td>
 <td width="50%">
 
 **User management** — search by email/name, roles, status, join date, inspect/suspend actions.
 
-![Admin Users](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_users_light.png)
+![Admin Users](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_users_light.png)
 
 </td>
 </tr>
@@ -540,14 +508,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Conversation browser** — filter by status/owner, open any conversation read-only.
 
-![Admin Conversations](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_conversations_light.png)
+![Admin Conversations](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_conversations_light.png)
 
 </td>
 <td width="50%">
 
 **Message ratings** — approval rate, daily chart, filterable rating table with comments.
 
-![Admin Ratings](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_ratings_light.png)
+![Admin Ratings](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_ratings_light.png)
 
 </td>
 </tr>
@@ -556,14 +524,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Stripe events log** — webhook event browser with manual replay for debugging.
 
-![Stripe Events](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_stripe_events_light.png)
+![Stripe Events](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_stripe_events_light.png)
 
 </td>
 <td width="50%">
 
 **System health** — live readiness checks: API, DB, Redis, vector store, LLM, worker, Stripe.
 
-![System Health](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/admin_system_light.png)
+![System Health](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/admin_system_light.png)
 
 </td>
 </tr>
@@ -577,14 +545,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Pricing** — three-tier page with monthly/annual toggle; pulls live Stripe plan data.
 
-![Pricing](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/landing_pricing.png)
+![Pricing](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/landing_pricing.png)
 
 </td>
 <td width="50%">
 
 **Blog** — engineering blog from MDX files; tags, featured posts, author bylines. No CMS needed.
 
-![Blog](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/blogs.png)
+![Blog](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/blogs.png)
 
 </td>
 </tr>
@@ -598,14 +566,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Prefect** — self-hosted server with RAG, billing, and email flows on cron schedules.
 
-![Prefect dashboard](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/prefect_dashboard.png)
+![Prefect dashboard](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/prefect_dashboard.png)
 
 </td>
 <td width="50%">
 
 **Prefect flow runs** — per-run history, task timeline, and retry visibility.
 
-![Prefect flow runs](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/new3/prefect_runs.png)
+![Prefect flow runs](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/new3/prefect_runs.png)
 
 </td>
 </tr>
@@ -614,14 +582,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Logfire** — distributed tracing: FastAPI, Pydantic AI, DB, Redis, Celery, HTTPX in one timeline.
 
-![Logfire](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/logfire.png)
+![Logfire](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/logfire.png)
 
 </td>
 <td width="50%">
 
 **LangSmith** — trace viewer for LangChain/LangGraph: chains, token usage, feedback.
 
-![LangSmith](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/langsmith.png)
+![LangSmith](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/langsmith.png)
 
 </td>
 </tr>
@@ -630,14 +598,14 @@ The chat UI streams responses over WebSocket and renders each tool call as a pur
 
 **Telegram bot** — multi-bot, polling + webhook, per-thread sessions, group concurrency control.
 
-![Telegram](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/telegram.png)
+![Telegram](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/telegram.png)
 
 </td>
 <td width="50%">
 
 **API docs** — auto-generated OpenAPI / Swagger UI with schemas, auth, and example payloads.
 
-![API Docs](https://raw.githubusercontent.com/vstorm-co/full-stack-ai-agent-template/main/assets/docs_2.png)
+![API Docs](https://raw.githubusercontent.com/Kaab10/my-ai-agent-template/main/assets/docs_2.png)
 
 </td>
 </tr>
@@ -891,7 +859,7 @@ graph LR
 | **Services** | Business logic, orchestration |
 | **Repositories** | Data access, queries |
 
-See [Architecture Documentation](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/architecture.md) for details.
+See [Architecture Documentation](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/architecture.md) for details.
 
 ---
 
@@ -997,7 +965,7 @@ Each framework has its own observability solution:
 | **Pydantic AI** | [Logfire](https://logfire.pydantic.dev) | Agent runs, tool calls, token usage |
 | **LangChain** | [LangSmith](https://smith.langchain.com) | Traces, feedback, datasets |
 
-See [AI Agent Documentation](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/ai-agent.md) for more.
+See [AI Agent Documentation](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/ai-agent.md) for more.
 
 ---
 
@@ -1380,19 +1348,19 @@ Yes. The LLM provider is configured via environment variables (`AI_MODEL`, `OPEN
 
 | Document | Description |
 |----------|-------------|
-| [Architecture](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/architecture.md) | Repository + Service pattern, layered design |
-| [Frontend](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/frontend.md) | Next.js setup, auth, state management |
-| [AI Agent](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/ai-agent.md) | Pydantic AI, tools, WebSocket streaming |
-| [Observability](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/observability.md) | Logfire integration, tracing, metrics |
-| [Deployment](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/deployment.md) | Docker, Kubernetes, production setup |
-| [Development](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/development.md) | Local setup, testing, debugging |
-| [Changelog](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/docs/CHANGELOG.md) | Version history and release notes |
+| [Architecture](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/architecture.md) | Repository + Service pattern, layered design |
+| [Frontend](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/frontend.md) | Next.js setup, auth, state management |
+| [AI Agent](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/ai-agent.md) | Pydantic AI, tools, WebSocket streaming |
+| [Observability](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/observability.md) | Logfire integration, tracing, metrics |
+| [Deployment](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/deployment.md) | Docker, Kubernetes, production setup |
+| [Development](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/development.md) | Local setup, testing, debugging |
+| [Changelog](https://github.com/Kaab10/my-ai-agent-template/blob/main/docs/CHANGELOG.md) | Version history and release notes |
 
 ---
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=vstorm-co/full-stack-ai-agent-template&type=date&legend=top-left)](https://www.star-history.com/#vstorm-co/full-stack-ai-agent-template&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=Kaab10/my-ai-agent-template&type=date&legend=top-left)](https://www.star-history.com/#Kaab10/my-ai-agent-template&type=date&legend=top-left)
 
 ---
 
@@ -1409,32 +1377,22 @@ This project is inspired by:
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please read our [Contributing Guide](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/CONTRIBUTING.md) for details.
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/Kaab10/my-ai-agent-template/blob/main/CONTRIBUTING.md) for details.
 
-<a href="https://github.com/vstorm-co/full-stack-ai-agent-template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vstorm-co/full-stack-ai-agent-template" alt="Contributors" />
+<a href="https://github.com/Kaab10/my-ai-agent-template/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Kaab10/my-ai-agent-template" alt="Contributors" />
 </a>
 
 ---
 
 ## 📄 License
 
-MIT License - see [LICENSE](https://github.com/vstorm-co/full-stack-ai-agent-template/blob/main/LICENSE) for details.
+MIT License - see [LICENSE](https://github.com/Kaab10/my-ai-agent-template/blob/main/LICENSE) for details.
 
 ---
 
 <div align="center">
 
-### Need help implementing this in your company?
-
-<p>We're <a href="https://vstorm.co"><b>Vstorm</b></a> — an Applied Agentic AI Engineering Consultancy<br>with 30+ production AI agent implementations.</p>
-
-<a href="https://vstorm.co/contact-us/">
-  <img src="https://img.shields.io/badge/Talk%20to%20us%20%E2%86%92-0066FF?style=for-the-badge&logoColor=white" alt="Talk to us">
-</a>
-
-<br><br>
-
-Made with ❤️ by <a href="https://vstorm.co"><b>Vstorm</b></a>
+Maintained by <a href="https://github.com/Kaab10"><b>Kaab10</b></a>
 
 </div>

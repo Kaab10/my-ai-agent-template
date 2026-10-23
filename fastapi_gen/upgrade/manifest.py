@@ -24,7 +24,7 @@ from ..config import GENERATOR_NAME, get_generator_version
 
 MANIFEST_FILENAME = ".fastapi-fullstack.json"
 
-TEMPLATE_URL = "https://github.com/vstorm-co/full-stack-ai-agent-template"
+TEMPLATE_URL = "https://github.com/Kaab10/my-ai-agent-template"
 
 VOLATILE_KEYS: frozenset[str] = frozenset({"generated_at"})
 
