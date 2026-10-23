@@ -39,23 +39,23 @@ const AVATARS = ["AK", "MR", "JP", "SL", "DN"];
 const FLOAT_PILLS = [
   {
     icon: MessageSquare,
-    label: "Real-time chat",
-    className: "left-[-12px] top-12 md:left-[-32px] md:top-16 float-y",
+    label: "Live replies",
+    className: "left-[-8px] top-10 md:left-[-28px] md:top-14 float-y",
   },
   {
     icon: Database,
-    label: "Connected to your data",
-    className: "right-[-8px] top-24 md:right-[-40px] md:top-28 float-y-delayed",
+    label: "Your data, connected",
+    className: "right-[-4px] top-20 md:right-[-36px] md:top-24 float-y-delayed",
   },
   {
     icon: Wrench,
-    label: "Acts on your behalf",
-    className: "left-[8%] bottom-[-18px] md:left-[12%] md:bottom-[-24px] float-y-delayed",
+    label: "Takes action for you",
+    className: "left-[6%] bottom-[-14px] md:left-[10%] md:bottom-[-20px] float-y-delayed",
   },
   {
     icon: Sparkles,
-    label: "Always on",
-    className: "right-[10%] bottom-[-12px] md:right-[12%] md:bottom-[-20px] float-y",
+    label: "Always available",
+    className: "right-[8%] bottom-[-8px] md:right-[10%] md:bottom-[-16px] float-y",
   },
 ];
 
